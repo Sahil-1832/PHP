@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <form action="process.php" method="get" style="width: 35%;">
+            <fieldset>
+                <legend>
+                    <h2 style="color:blue">Registration</h2>
+                </legend>
+            <p>
+                <label for="fname">First name          :</label>
+                <input type="text" id="fname" name="fname" placeholder="Name" >
+            </p>
+            <p>
+                <label for="lname">Last name           :</label>
+                <input type="text" id="lname" name="lname" placeholder="Name" >
+            </p>
+            <p>
+                <label for="dob">Date of Birth         :</label>
+                <p><label for="date">Date :</label>
+                <input type="number" id="date" name="date" min="1" max="31" placeholder="date" >
+                <label for="month">Month :</label>
+                <input type="number" id="month" name="month" min="1" max="12" placeholder="month" >
+                <label for="year">Year :</label>
+                <input type="number" id="year" name="year" min="1900" max="2023" placeholder="year" >
+                </p>
+            </p>
+            <p>
+                <label for="email">Email               :</label>
+                <input type="email" id="email" name="email" placeholder="Email" >
+            </p>
+            <p>
+                <label for="password">Password         :</label>
+                <input type="password" id="password" name="password" placeholder="password" >
+            </p>
+            <p>
+                <label for="password">Confirm Password :</label>
+                <input type="password" id="cpassword" name="cpassword" placeholder="password" >
+            </p>
+            <p>
+                <input type="submit" value="Submit" name="submit" style="background-color: lightskyblue; font-weight: bold; cursor: pointer;">
+            </p>
+        </fieldset>
+        </form>
+
+</body>
+</html>
